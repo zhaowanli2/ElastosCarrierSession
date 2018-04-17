@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/scantoaddfriend"
+        android:title="扫码加好友"/>
+
+    <item android:id="@+id/createsession"
+        android:title="1. CreateSession"/>
+
+    <item android:id="@+id/sessionrequest"
+        android:title="2. SessionRequest"/>
+
+    <item android:id="@+id/sendmessage"
+        android:title="3. SendMessage"/>
+</menu>

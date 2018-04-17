@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@drawable/bottom_bg"
+    android:orientation="horizontal" >
+    <LinearLayout 
+        android:id="@+id/id_tab_main"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/id_tab_main_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:clickable="false"
+            android:src="@drawable/tab_message_pressed"
+            android:background="#00000000"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/id_tab_frd"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/id_tab_frd_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:clickable="false"
+            android:src="@drawable/tab_find_frd_normal"
+            android:background="#00000000"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Me"/>
+    </LinearLayout>
+
+</LinearLayout>
