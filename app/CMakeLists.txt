@@ -15,7 +15,6 @@ set(SOURCES
 add_library(elastoscarrier SHARED ${SOURCES})
 
 target_link_libraries(elastoscarrier
-    spvsdk
     Elastos.Runtime
     Elastos.Runtime_static
     Elastos.CoreLibrary

@@ -4,7 +4,7 @@
 
 //For Elastos
 #include <elastos/core/Object.h>
-#include "Elastos.ElaSessionRpcClient.Export.h"
+#include "Elastos.ElaSessionRpcClient.h"
 
 #define TAG "Elastos_Session_RPC_Log"
 #define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG,TAG ,__VA_ARGS__)
@@ -14,9 +14,9 @@
 #define LOGF(...) __android_log_print(ANDROID_LOG_FATAL,TAG ,__VA_ARGS__)
 
 using Elastos::Core::Object;
-using Elastos::ElaSessionRpcClient::CElaSessionRpcClient;
-using Elastos::ElaSessionRpcClient::IElaSessionRpcClient;
-using Elastos::ElaSessionRpcClient::ICarrierNodeListener;
+//using Elastos::ElaSessionRpcClient::CElaSessionRpcClient;
+//using Elastos::ElaSessionRpcClient::IElaSessionRpcClient;
+//using Elastos::ElaSessionRpcClient::ICarrierNodeListener;
 
 #define JNIREG_CLASS_ELARPCUTILS "com/elastos/carrier/elastoscarriersession/ElaRpcUtils"
 #define JNIREG_CLASS_ELAMAINACTIVITY "com/elastos/carrier/elastoscarriersession/MainActivity"
@@ -204,12 +204,12 @@ JNIEXPORT jint JNICALL JNI_OnLoad(JavaVM* vm, void* reserved){
     jclass cls2 = env->FindClass(JNIREG_CLASS_ELAMAINACTIVITY);
     env->RegisterNatives(cls2, gMainActivityMethods, sizeof(gMainActivityMethods)/sizeof(JNINativeMethod));
 
-    PJ_JNI_OnLoad(vm, reserved);
+//    PJ_JNI_OnLoad(vm, reserved);
     return JNI_VERSION_1_6;
 }
 
 
-using Elastos::ElaSessionRpcClient::EIID_ICarrierNodeListener;
+//using Elastos::ElaSessionRpcClient::EIID_ICarrierNodeListener;
 CAR_INTERFACE_IMPL(CarrierNodeListener, Object, ICarrierNodeListener)
 CarrierNodeListener::CarrierNodeListener(
     /* [in] */ JNIEnv* env,
