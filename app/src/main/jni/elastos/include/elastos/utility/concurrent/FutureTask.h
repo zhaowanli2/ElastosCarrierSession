@@ -18,7 +18,7 @@
 #define __ELASTOS_UTILITY_CONCURRENT_FUTURETASK_H__
 
 #include "Elastos.CoreLibrary.Utility.Concurrent.h"
-#include <elastos/core/Thread.h>
+#include "elastos/core/Thread.h"
 
 using Elastos::Core::Runnable;
 using Elastos::Core::IThread;

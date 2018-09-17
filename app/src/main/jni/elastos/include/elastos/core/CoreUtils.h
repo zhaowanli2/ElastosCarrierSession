@@ -17,9 +17,9 @@
 #ifndef __ELASTOS_CORE_COREUTILS_H__
 #define __ELASTOS_CORE_COREUTILS_H__
 
-#include <elastos/core/Object.h>
+#include "elastos/core/Object.h"
 #ifdef ELASTOS_CORELIBRARY
-#include "CArrayOf.h"
+#include "elastos/core/CArrayOf.h"
 #endif
 
 using Elastos::Core::IByte;

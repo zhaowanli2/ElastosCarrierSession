@@ -17,7 +17,7 @@
 #ifndef __ELASTOS_UTILITY_LINKEDHASHMAP_H__
 #define __ELASTOS_UTILITY_LINKEDHASHMAP_H__
 
-#include "HashMap.h"
+#include "elastos/utility/HashMap.h"
 
 namespace Elastos {
 namespace Utility {

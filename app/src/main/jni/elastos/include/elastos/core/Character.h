@@ -22,7 +22,7 @@
 #include "unicode/utypes.h"
 #endif
 
-#include <elastos/core/Object.h>
+#include "elastos/core/Object.h"
 
 using Elastos::IO::ISerializable;
 using Elastos::Core::IComparable;

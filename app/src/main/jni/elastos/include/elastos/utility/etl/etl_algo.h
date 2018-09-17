@@ -17,8 +17,8 @@
 #ifndef __ETL_ALGO_H__
 #define __ETL_ALGO_H__
 
-#include <elastos/utility/etl/etl_def.h>
-#include <elastos/utility/etl/etl_heap.h>
+#include "elastos/utility/etl/etl_def.h"
+#include "elastos/utility/etl/etl_heap.h"
 
 _ETL_NAMESPACE_BEGIN
 

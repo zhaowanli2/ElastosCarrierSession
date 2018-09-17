@@ -17,7 +17,7 @@
 #ifndef __ELASTOS_UTILITY_ABSTRACTLIST_H__
 #define __ELASTOS_UTILITY_ABSTRACTLIST_H__
 
-#include "AbstractCollection.h"
+#include "elastos/utility/AbstractCollection.h"
 
 using Elastos::Utility::IIterator;
 using Elastos::Utility::ICollection;

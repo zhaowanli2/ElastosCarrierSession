@@ -17,7 +17,7 @@
 #ifndef __ELASTOS_CORE_HEXSTRINGPARSER_H__
 #define __ELASTOS_CORE_HEXSTRINGPARSER_H__
 
-#include <elastos/core/Object.h>
+#include "elastos/core/Object.h"
 
 using Elastos::Utility::Regex::IPattern;
 

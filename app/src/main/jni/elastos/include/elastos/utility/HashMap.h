@@ -17,7 +17,7 @@
 #ifndef __ELASTOS_UTILITY_HashMap_H__
 #define __ELASTOS_UTILITY_HashMap_H__
 
-#include "AbstractMap.h"
+#include "elastos/utility/AbstractMap.h"
 #include "elastos/core/Object.h"
 
 using Elastos::Core::ICloneable;

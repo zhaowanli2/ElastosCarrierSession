@@ -17,7 +17,7 @@
 #ifndef __STD_EFUNCTEXCEPT_H__
 #define __STD_EFUNCTEXCEPT_H__
 
-#include <elastos/utility/etl/etl_exception_defines.h>
+#include "elastos/utility/etl/etl_exception_defines.h"
 #include <stdlib.h>
 
 #ifdef _GUNC

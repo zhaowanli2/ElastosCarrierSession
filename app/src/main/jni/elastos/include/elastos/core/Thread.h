@@ -17,9 +17,9 @@
 #ifndef __ELASTOS_CORE_THREAD_H__
 #define __ELASTOS_CORE_THREAD_H__
 
-#include <elastos/core/Runnable.h>
-#include <elastos/core/NativeThread.h>
-#include <elastos/utility/etl/List.h>
+#include "elastos/core/Runnable.h"
+#include "elastos/core/NativeThread.h"
+#include "elastos/utility/etl/List.h"
 
 // using Elastos::Utility::IList;
 using Elastos::Core::Runnable;

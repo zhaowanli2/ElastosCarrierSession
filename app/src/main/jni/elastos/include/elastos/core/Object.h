@@ -18,9 +18,9 @@
 #define __ELASTOS_CORE_OBJECT_H__
 
 #include "Elastos.CoreLibrary.Core.h"
-#include <elastos/coredef.h>
-#include <elastos/core/NativeThread.h>
-#include <elastos/core/StringUtils.h>
+#include "elastos/coredef.h"
+#include "elastos/core/NativeThread.h"
+#include "elastos/core/StringUtils.h"
 
 using Elastos::Core::ISynchronize;
 using Elastos::Core::NativeObject;

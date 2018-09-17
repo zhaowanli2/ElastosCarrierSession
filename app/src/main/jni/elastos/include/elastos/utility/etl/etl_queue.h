@@ -23,8 +23,8 @@
  *  You should not attempt to use it directly.
  */
 
-#include <elastos/utility/etl/etl_def.h>
-#include <elastos/utility/etl/ConceptCheck.h>
+#include "elastos/utility/etl/etl_def.h"
+#include "elastos/utility/etl/ConceptCheck.h"
 #include <elrefbase.h>
 
 using Elastos::ElLightRefBase;

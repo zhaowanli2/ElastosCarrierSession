@@ -17,7 +17,7 @@
 #ifndef __ELASTOS_UTILITY_OBJECTS_H__
 #define __ELASTOS_UTILITY_OBJECTS_H__
 
-#include <elastos/core/Object.h>
+#include "elastos/core/Object.h"
 
 using Elastos::Core::IComparator;
 using Elastos::Core::IArrayOf;

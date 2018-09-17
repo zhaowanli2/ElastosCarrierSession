@@ -25,8 +25,8 @@
 // Concept-checking code is off by default unless users turn it on via
 // configure options or editing c++config.h.
 
-#include <elastos/utility/etl/etl_def.h>
-#include <elastos/utility/etl/etl_concept_check.h>
+#include "elastos/utility/etl/etl_def.h"
+#include "elastos/utility/etl/etl_concept_check.h"
 
 // Note that the obvious and elegant approach of
 //

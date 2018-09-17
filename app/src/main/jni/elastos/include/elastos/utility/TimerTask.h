@@ -18,7 +18,7 @@
 #define __ELASTOS_UTILITY_TIMERTASK_H__
 
 #include "Elastos.CoreLibrary.Utility.h"
-#include <elastos/core/Runnable.h>
+#include "elastos/core/Runnable.h"
 
 using Elastos::Core::Runnable;
 

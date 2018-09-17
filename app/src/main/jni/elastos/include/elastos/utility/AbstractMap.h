@@ -17,7 +17,7 @@
 #ifndef __ELASTOS_UTILITY_ABSTRACTMAP_H__
 #define __ELASTOS_UTILITY_ABSTRACTMAP_H__
 
-#include "AbstractSet.h"
+#include "elastos/utility/AbstractSet.h"
 
 using Elastos::Utility::ICollection;
 using Elastos::Utility::ISet;

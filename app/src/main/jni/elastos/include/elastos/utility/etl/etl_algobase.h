@@ -17,12 +17,12 @@
 #ifndef __ETL_ALGOBASE_H__
 #define __ETL_ALGOBASE_H__
 
-#include <elastos/utility/etl/etl_pair.h>
-#include <elastos/utility/etl/etl_type_traits.h>
-#include <elastos/utility/etl/etl_iterator_base_types.h>
-#include <elastos/utility/etl/etl_iterator_base_funcs.h>
-#include <elastos/utility/etl/etl_iterator.h>
-#include <elastos/utility/etl/ConceptCheck.h>
+#include "elastos/utility/etl/etl_pair.h"
+#include "elastos/utility/etl/etl_type_traits.h"
+#include "elastos/utility/etl/etl_iterator_base_types.h"
+#include "elastos/utility/etl/etl_iterator_base_funcs.h"
+#include "elastos/utility/etl/etl_iterator.h"
+#include "elastos/utility/etl/ConceptCheck.h"
 
 
 _ETL_NAMESPACE_BEGIN

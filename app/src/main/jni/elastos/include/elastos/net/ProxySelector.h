@@ -18,8 +18,8 @@
 #define __ELASTOS_NET_PROXYSELECTOR_H__
 
 #include "Elastos.CoreLibrary.Net.h"
-#include <elastos/core/Object.h>
-#include <elastos/utility/etl/List.h>
+#include "elastos/core/Object.h"
+#include "elastos/utility/etl/List.h"
 
 using Elastos::Core::Object;
 using Elastos::Utility::IList;

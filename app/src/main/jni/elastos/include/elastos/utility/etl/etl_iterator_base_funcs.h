@@ -17,8 +17,8 @@
 #ifndef __ETL_ITERATOR_BASE_FUNCS_H__
 #define __ETL_ITERATOR_BASE_FUNCS_H__
 
-#include <elastos/utility/etl/etl_def.h>
-#include <elastos/utility/etl/ConceptCheck.h>
+#include "elastos/utility/etl/etl_def.h"
+#include "elastos/utility/etl/ConceptCheck.h"
 
 _ETL_NAMESPACE_BEGIN
 

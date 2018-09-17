@@ -17,7 +17,7 @@
 #ifndef __ELASTOS_UTILITY_ABSTRACTSET_H__
 #define __ELASTOS_UTILITY_ABSTRACTSET_H__
 
-#include <elastos/utility/AbstractCollection.h>
+#include "elastos/utility/AbstractCollection.h"
 
 using Elastos::Utility::ICollection;
 using Elastos::Utility::AbstractCollection;

@@ -17,7 +17,7 @@
 #ifndef __ELASTOS_CORE_STRINGBUFFER_H__
 #define __ELASTOS_CORE_STRINGBUFFER_H__
 
-#include <elastos/core/AbstractStringBuilder.h>
+#include "elastos/core/AbstractStringBuilder.h"
 
 namespace Elastos {
 namespace Core {

@@ -17,7 +17,7 @@
 #ifndef __ETL_BLOCKINGQUEUE_H__
 #define __ETL_BLOCKINGQUEUE_H__
 
-#include <elastos/utility/etl/etl_queue.h>
+#include "elastos/utility/etl/etl_queue.h"
 #include <pthread.h>
 
 _ETL_NAMESPACE_BEGIN

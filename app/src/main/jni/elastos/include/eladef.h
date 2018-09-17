@@ -90,6 +90,21 @@
 #define DLL_THREAD_DETACH  3
 #define DLL_PROCESS_DETACH 0
 
+#ifndef _devtools
+
+//
+// System definitions
+//
+
+#define TLS_TOTAL_SLOTS                 10
+
+EXTERN_C ECO_PUBLIC pthread_key_t *getTlSystemSlotBase();
+
+#define TL_SYSTEM_SLOT_BASE             (getTlSystemSlotBase())
+#define TL_CARRIER_ID_SLOT               (*(TL_SYSTEM_SLOT_BASE + 2))
+
+#endif // _devtools
+
 //
 // Helper Info Flag
 //

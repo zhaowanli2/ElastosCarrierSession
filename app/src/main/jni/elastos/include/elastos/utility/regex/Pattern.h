@@ -19,7 +19,7 @@
 
 #include "Elastos.CoreLibrary.Utility.h"
 #include <unicode/regex.h>
-#include <elastos/core/Object.h>
+#include "elastos/core/Object.h"
 
 using Elastos::Core::ICharSequence;
 using Elastos::Core::Object;

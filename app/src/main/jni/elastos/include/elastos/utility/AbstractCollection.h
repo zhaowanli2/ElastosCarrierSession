@@ -18,7 +18,7 @@
 #define __ELASTOS_UTILITY_ABSTRACTCOLLECTION_H__
 
 #include "Elastos.CoreLibrary.Utility.h"
-#include <elastos/core/Object.h>
+#include "elastos/core/Object.h"
 
 using Elastos::Core::Object;
 using Elastos::Utility::ICollection;

@@ -17,8 +17,8 @@
 #ifndef __ELASTOS_CONCEPT_CHECK_H__
 #define __ELASTOS_CONCEPT_CHECK_H__
 
-#include <elastos/utility/etl/etl_def.h>
-#include <elastos/utility/etl/etl_iterator_base_types.h>
+#include "elastos/utility/etl/etl_def.h"
+#include "elastos/utility/etl/etl_iterator_base_types.h"
 
 _ETL_NAMESPACE_BEGIN
 

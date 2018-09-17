@@ -17,7 +17,7 @@
 #ifndef __ELASTOS_CORE_CASEMAPPER_H__
 #define __ELASTOS_CORE_CASEMAPPER_H__
 
-#include <elastos/core/Object.h>
+#include "elastos/core/Object.h"
 #include <pthread.h>
 
 using Elastos::Utility::ILocale;

@@ -17,12 +17,12 @@
 #ifndef __ELASTOS_ETL_EVECTOR_H__
 #define __ELASTOS_ETL_EVECTOR_H__
 
-#include <elastos/utility/etl/etl_function_exception.h>
-#include <elastos/utility/etl/etl_algobase.h>
-#include <elastos/utility/etl/etl_alloc.h>
-#include <elastos/utility/etl/etl_construct.h>
-#include <elastos/utility/etl/etl_uninitialized.h>
-#include <elastos/utility/etl/etl_vector.h>
+#include "elastos/utility/etl/etl_function_exception.h"
+#include "elastos/utility/etl/etl_algobase.h"
+#include "elastos/utility/etl/etl_alloc.h"
+#include "elastos/utility/etl/etl_construct.h"
+#include "elastos/utility/etl/etl_uninitialized.h"
+#include "elastos/utility/etl/etl_vector.h"
 
 /*
 #include <bits/functexcept.h>

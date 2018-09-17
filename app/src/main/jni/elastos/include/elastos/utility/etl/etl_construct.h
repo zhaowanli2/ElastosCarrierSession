@@ -17,8 +17,8 @@
 #ifndef __ETL_CONSTRUCT_H__
 #define __ETL_CONSTRUCT_H__
 
-#include <elastos/utility/etl/etl_def.h>
-#include <elastos/utility/etl/etl_type_traits.h>
+#include "elastos/utility/etl/etl_def.h"
+#include "elastos/utility/etl/etl_type_traits.h"
 #include <new>
 
 _ETL_NAMESPACE_BEGIN

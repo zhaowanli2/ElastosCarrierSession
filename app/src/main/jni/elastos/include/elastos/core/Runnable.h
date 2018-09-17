@@ -17,7 +17,7 @@
 #ifndef __ELASTOS_CORE_RUNNABLE_H__
 #define __ELASTOS_CORE_RUNNABLE_H__
 
-#include <elastos/core/Object.h>
+#include "elastos/core/Object.h"
 
 using Elastos::Core::IRunnable;
 

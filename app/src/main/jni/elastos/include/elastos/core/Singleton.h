@@ -17,8 +17,8 @@
 #ifndef __ELASTOS_CORE_SINGLETON_H__
 #define __ELASTOS_CORE_SINGLETON_H__
 
-#include <elastos/core/Object.h>
-#include <spinlock.h>
+#include "elastos/core/Object.h"
+#include "elspinlock.h"
 
 namespace Elastos {
 namespace Core {

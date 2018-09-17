@@ -72,13 +72,13 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 
     static {
         System.loadLibrary("log");
-        System.loadLibrary("elacommon");
+        System.loadLibrary("crystal");
         System.loadLibrary("elacarrier");
         System.loadLibrary("elasession");
         System.loadLibrary("Elastos.Runtime");
         System.loadLibrary("Elastos.CoreLibrary");
         System.loadLibrary("Elastos.ElaSessionRpcClient");
-        System.loadLibrary("elasessionrpc");
+        System.loadLibrary("elastoscarrier");
     }
 
     @Override

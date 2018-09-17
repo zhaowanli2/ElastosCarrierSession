@@ -17,15 +17,15 @@
 #ifndef __ELASTOS_UTILITY_ARRAYS_H__
 #define __ELASTOS_UTILITY_ARRAYS_H__
 
-//#include "AbstractList.h"
+//#include "elastos/utility/AbstractList.h"
 #include "Elastos.CoreLibrary.Utility.h"
-#include <elastos/core/Object.h>
-#include <elastos/core/StringBuilder.h>
-#include <elastos/core/ElaMath.h>
-#include <elastos/utility/DualPivotQuicksort.h>
-#include <elastos/utility/ComparableTimSort.h>
-#include <elastos/utility/TimSort.h>
-#include <elastos/utility/logging/Logger.h>
+#include "elastos/core/Object.h"
+#include "elastos/core/StringBuilder.h"
+#include "elastos/core/Math.h"
+#include "elastos/utility/DualPivotQuicksort.h"
+#include "elastos/utility/ComparableTimSort.h"
+#include "elastos/utility/TimSort.h"
+#include "elastos/utility/logging/Logger.h"
 
 using Elastos::Core::IComparator;
 using Elastos::Core::IComparable;

@@ -17,7 +17,7 @@
 #ifndef __ETL_HASH_FUN_H__
 #define __ETL_HASH_FUN_H__
 
-#include <elastos/utility/etl/etl_def.h>
+#include "elastos/utility/etl/etl_def.h"
 
 _ETL_NAMESPACE_BEGIN
 
@@ -75,22 +75,15 @@ template<> struct Hash<unsigned short>
     size_t operator()(unsigned short x) const { return x; }
 };
 
-template<> struct Hash<int>
+template<> struct Hash<Int32>
 {
-    size_t operator()(int x) const { return x; }
+    size_t operator()(Int32 x) const { return x; }
 };
 
 template<> struct Hash<unsigned int>
 {
     size_t operator()(unsigned int x) const { return x; }
 };
-
-#if (!defined(_ELASTOS64))
-template<> struct Hash<long>
-{
-    size_t operator()(long x) const { return x; }
-};
-#endif
 
 template<> struct Hash<unsigned long>
 {
